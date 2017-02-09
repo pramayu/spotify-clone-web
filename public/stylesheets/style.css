@@ -1,0 +1,81 @@
+body {
+  font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+.custom-nav {
+  background-color: #393b4a;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.custom-nav .fak {
+  width: 95%;
+}
+
+.custom-nav .fak .navbar-header .navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 8px;
+  outline: none;
+  color: #fff;
+}
+
+.custom-nav .fak .kw .foo {
+  padding-left: 50px;
+}
+
+.custom-nav .fak .kw .foo .fa-search {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #a9a9ae;
+}
+
+.custom-nav .fak .kw .foo {
+  padding-top: 21px;
+}
+
+.custom-nav .fak .kw .foo input {
+  background-color: #fff;
+  border-radius: 12px;
+  border: none;
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 215px;
+  color: #43485b;
+  padding-left: 30px;
+}
+
+.custom-nav .fak .fw .upgrade {
+  background-color: #089680;
+  padding: 6px 25px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 18px;
+  margin-right: 35px;
+}
+
+.custom-nav .fak .fw .asaf {
+  color: #575966;
+  font-size: 18px;
+  font-weight: normal;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.custom-nav .fak .fw .prfo img {
+  border-radius: 100%;
+}
+
+.custom-nav .fak .fw li a {
+  outline: none;
+}
