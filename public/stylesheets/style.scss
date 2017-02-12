@@ -216,7 +216,20 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
             font-weight: 600;
             color: #6D7178;
           }
-
+          ul {
+            padding-top: 10px;
+            li {
+              padding-right: 20px;
+              span {
+                @extend label;
+                margin-left: 5px;
+              }
+            }
+          }
+          .agr {
+            @extend label;
+            margin-left: 5px;
+          }
         }
       }
       .light {
@@ -227,6 +240,13 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
           text-decoration: none;
           font-weight: 500;
           outline: none;
+          padding-top: 10px;
+        }
+      }
+      .capt {
+        h3 {
+          color: #fff;
+          font-weight: 600;
           padding-top: 10px;
         }
       }

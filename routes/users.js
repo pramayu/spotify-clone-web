@@ -7,7 +7,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/login', function(req, res, next){
-  res.render('./users/login', {layout: 'auth', title: "Login ~ Spotifer."})
+  res.render('./users/login', {layout: 'auth', title: "Login ~ Spotifer."});
+});
+
+router.get('/signup', function(req, res, next){
+  res.render('./users/signup', {layout: 'auth', title: "Sign Up ~ Spotifer."});
 });
 
 module.exports = router;
