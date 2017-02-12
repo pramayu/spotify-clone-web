@@ -5,6 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var handleHbs = require('express-handlebars');
+var passport = require('passport');
+var session = require('express-session');
 
 // router
 var index = require('./routes/index');
@@ -25,6 +27,16 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(session({
+  secret: 'this_is_very_secret_code',
+  resave: false,
+  saveUninitialized: false,
+  cookie: { maxAge: 180 * 60 * 1000 }
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);

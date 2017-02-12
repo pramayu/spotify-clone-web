@@ -1,57 +1,49 @@
 body {
-  font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00B7FF;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .custom-nav {
-  background-color: #393b4a;
+  background-color: #303236;
   border-radius: 0px;
   margin-bottom: 0px;
-  border: none;
-}
+  border: none; }
 
 .custom-nav .fak {
-  width: 95%;
-}
+  width: 95%; }
 
 .custom-nav .fak .navbar-header .navbar-brand {
   font-size: 18px;
   font-weight: 600;
-  margin-top: 8px;
+  margin-top: 3.5px;
   outline: none;
-  color: #fff;
-}
+  color: #fff; }
 
 .custom-nav .fak .kw .foo {
-  padding-left: 50px;
-}
+  padding-left: 50px; }
 
 .custom-nav .fak .kw .foo .fa-search {
   position: absolute;
   margin-top: 5px;
   margin-left: 10px;
-  color: #a9a9ae;
-}
+  color: #a9a9ae; }
 
 .custom-nav .fak .kw .foo {
-  padding-top: 21px;
-}
+  padding-top: 16.5px; }
 
 .custom-nav .fak .kw .foo input {
-  background-color: #fff;
-  border-radius: 12px;
-  border: none;
+  background-color: #303236;
+  border-radius: 5px;
+  border: 1px solid #3f4248;
   padding: 6px 8px;
   font-size: 12px;
   font-weight: 500;
   width: 215px;
-  color: #43485b;
+  color: #a9a9a9;
   padding-left: 30px;
-}
+  outline: none; }
 
 .custom-nav .fak .fw .upgrade {
   background-color: #089680;
@@ -60,22 +52,97 @@ a {
   font-size: 12px;
   color: #fff;
   font-weight: 600;
-  margin-top: 18px;
-  margin-right: 35px;
-}
+  margin-top: 15px;
+  margin-right: 35px; }
 
 .custom-nav .fak .fw .asaf {
   color: #575966;
   font-size: 18px;
   font-weight: normal;
   margin-right: 10px;
-  margin-top: 8px;
-}
+  margin-top: 6px; }
 
 .custom-nav .fak .fw .prfo img {
-  border-radius: 100%;
-}
+  border-radius: 100%; }
 
 .custom-nav .fak .fw li a {
+  outline: none; }
+
+.login-btn, .login-bg .container .lagi-lagi .facebook {
+  padding-top: 40px; }
+
+.login-btn-detail, .login-bg .container .lagi-lagi .facebook .btn-facebooks, .login-bg .container .lagi-lagi .email .btn-enail {
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
   outline: none;
-}
+  font-size: 12px;
+  border: none; }
+
+.login-bg {
+  background-color: #303236;
+  width: 100%;
+  height: 675px; }
+
+.login-bg .container .lagi-lagi {
+  text-align: center;
+  padding-top: 10%; }
+
+.login-bg .container .lagi-lagi .title h4 {
+  font-family: 'Roboto', Helvetica, Arial;
+  font-size: 45px;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 40px; }
+
+.login-bg .container .lagi-lagi .title h4 .fa {
+  margin-right: 15px;
+  font-size: 85px;
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -20px;
+  font-weight: normal; }
+
+.login-bg .container .lagi-lagi .facebook .btn-facebooks {
+  background-color: #39579b;
+  padding: 13px 95px; }
+
+.login-bg .container .lagi-lagi .email {
+  padding-top: 20px; }
+
+.login-bg .container .lagi-lagi .email .btn-enail {
+  background-color: #6D7178;
+  padding: 13px 79px; }
+
+.login-bg .container .lagi-lagi .sprt {
+  padding: 20px 40%; }
+
+.login-bg .container .lagi-lagi .sprt .jka {
+  line-height: 18px;
+  color: #6D7178;
+  font-size: 12px;
+  font-weight: 300; }
+
+.login-bg .container .lagi-lagi .sprt .jka span {
+  color: #b7b7b7;
+  font-weight: 500; }
+
+.login-bg .container .lagi-lagi .sprt .jka:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 1.5px;
+  background-color: #b7b7b7;
+  margin-top: 45px;
+  margin-left: -135px; }
+
+.login-bg .container .lagi-lagi .fir {
+  padding-top: 20px; }
+
+.login-bg .container .lagi-lagi .fir .fo {
+  background-color: transparent;
+  border: none;
+  color: #b7b7b7;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none; }

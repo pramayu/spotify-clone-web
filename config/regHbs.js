@@ -4,6 +4,7 @@ var _ = require('lodash');
 
 var handleBar = handleHbs.create({
   defaultLayout: 'layout',
+  layout: 'auth',
   extname: '.hbs',
   helpers: {
   }
