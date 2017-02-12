@@ -7,6 +7,12 @@ a {
   text-decoration: none;
 }
 
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: transparent;
+  background-image: none;
+  color: #6D7178;
+}
+
 .custom-nav {
   background-color: #303236;
   border-radius: 0px;
@@ -134,6 +140,9 @@ a {
           background-color: #6D7178;
           padding: 13px 79px;
         }
+        .btn-f {
+          padding: 13px 150px;
+        }
       }
       .sprt {
         padding: 20px 40%;
@@ -166,6 +175,59 @@ a {
           font-size: 12px;
           font-weight: 600;
           outline: none;
+        }
+      }
+      .or {
+        padding: 20px 35.5%;
+        hr {
+          // border-bottom: 1px solid #6D7178;
+          border-color: #6D7178;
+        }
+        span {
+          color: #6D7178;
+          font-weight: 500;
+          position: absolute;
+          margin-top: -40px;
+          margin-left: -15px;
+          padding: 10px;
+          background-color: #303236;
+        }
+      }
+      .frm {
+        padding: 0px 35.5%;
+        text-align: left;
+        .form-group {
+          label {
+            font-size: 12px;
+            color: #6D7178;
+            font-weight: 600;
+            margin-bottom: 0px;
+          }
+          .firm {
+            background-color: transparent;
+            border-radius: 0px;
+            border: none;
+            border-bottom: 1px solid #6D7178;
+            outline: none;
+            box-shadow: none;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #6D7178;
+          }
+
+        }
+      }
+      .light {
+        text-align: center !important;
+        padding-top: 20px;
+        a {
+          color: #6D7178;
+          text-decoration: none;
+          font-weight: 500;
+          outline: none;
+          padding-top: 10px;
         }
       }
     }
