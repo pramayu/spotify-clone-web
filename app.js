@@ -33,6 +33,7 @@ app.use(session({
   saveUninitialized: false,
   cookie: { maxAge: 180 * 60 * 1000 }
 }));
+require('./config/passport')(passport);
 app.use(passport.initialize());
 app.use(passport.session());
 
