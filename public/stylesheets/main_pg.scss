@@ -1,0 +1,46 @@
+.main-pg {
+  .nger {
+    width: 100%;
+    .left-nav {
+      float: left;
+      position: fixed;
+      border-right: 2px solid #282a2d;
+      width: 230px;
+      background-color: #303236;
+      height: 620px;
+      .content-left-nav {
+        padding: 25px 30px;
+        .main {
+          color: #686D73;
+          font-weight: 600;
+          font-size: 12px;
+        }
+        .njir {
+          li {
+            color: #9b9da5;
+            padding-bottom: 15px;
+            font-size: 12px;
+            font-weight: 600;
+            .fa {
+              margin-right: 5px;
+              font-size: 14px !important;
+              font-weight: normal;
+            }
+          }
+          li.act {
+            color: #fff;
+            &:before {
+              position: absolute;
+              left: 0;
+              content: "";
+              width: 3px;
+              background-color: #81b304;
+              height: 35px;
+              margin-top: -10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

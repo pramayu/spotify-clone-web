@@ -1,3 +1,5 @@
+@import "main_pg.scss";
+
 body {
   font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -18,12 +20,15 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   border-radius: 0px;
   margin-bottom: 0px;
   border: none;
+  border-bottom: 2px solid #282a2d;
 }
 
 .custom-nav .fak {
   width: 95%;
 }
-
+.custom-nav .fak .navbar-header {
+  padding-left: 25px;
+}
 .custom-nav .fak .navbar-header .navbar-brand {
   font-size: 18px;
   font-weight: 600;
@@ -33,7 +38,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 .custom-nav .fak .kw .foo {
-  padding-left: 50px;
+  padding-left: 70px;
 }
 
 .custom-nav .fak .kw .foo .fa-search {
@@ -50,7 +55,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 .custom-nav .fak .kw .foo input {
   background-color: #303236;
   border-radius: 5px;
-  border: 1px solid #3f4248;
+  border: 1px solid #4F5258;
   padding: 6px 8px;
   font-size: 12px;
   font-weight: 500;
@@ -61,9 +66,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 .custom-nav .fak .fw .upgrade {
-  background-color: #089680;
+  background-color: #03a9f4;
   padding: 6px 25px;
-  border-radius: 4px;
+  border-radius: 3px;
   font-size: 12px;
   color: #fff;
   font-weight: 600;
@@ -72,16 +77,25 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 .custom-nav .fak .fw .asaf {
-  color: #575966;
+  color: #4F5258;
   font-size: 18px;
   font-weight: normal;
   margin-right: 10px;
   margin-top: 6px;
 }
-
-.custom-nav .fak .fw .prfo img {
-  border-radius: 100%;
+.custom-nav .fak .fw .prfo {
+  img {
+    border-radius: 100%;
+  }
+  &:after {
+    content: "\f078";
+    font-family: "FontAwesome";
+    color: #4F5258;
+    font-size: 10px;
+    margin-left: 10px;
+  }
 }
+
 
 .custom-nav .fak .fw li a {
   outline: none;

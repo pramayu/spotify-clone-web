@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', isLoggedIn, function(req, res, next) {
-  res.render('./main/index', { title: 'Spotifer' });
+  res.render('./main/index', { title: `(@${req.user.username}) ~ Spotifer` });
 });
 
 module.exports = router;
