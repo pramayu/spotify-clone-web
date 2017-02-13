@@ -181,7 +181,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
         padding: 20px 35.5%;
         hr {
           // border-bottom: 1px solid #6D7178;
-          border-color: #6D7178;
+          border-color: rgba(255,255,255,.2);
         }
         span {
           color: #6D7178;
@@ -207,7 +207,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
             background-color: transparent;
             border-radius: 0px;
             border: none;
-            border-bottom: 1px solid #6D7178;
+            border-bottom: 1px solid rgba(255,255,255,.2);
             outline: none;
             box-shadow: none;
             padding-left: 0px;
@@ -236,11 +236,11 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
         text-align: center !important;
         padding-top: 20px;
         a {
-          color: #6D7178;
-          text-decoration: none;
-          font-weight: 500;
+          color: #b7b7b7;
+          font-size: 12px;
+          font-weight: 600;
           outline: none;
-          padding-top: 10px;
+          text-decoration: none;
         }
       }
       .capt {

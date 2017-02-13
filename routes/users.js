@@ -13,6 +13,11 @@ router.get('/', function(req, res, next) {
   res.render('./users/main', {layout: 'auth', title: "Login ~ Spotifer."});
 });
 
+router.post('/login', passport.authenticate('local', {
+  failureRedirect: '/users/login',
+  successRedirect: '/'
+}));
+
 router.get('/login', function(req, res, next){
   res.render('./users/login', {layout: 'auth', csrfToken: req.csrfToken(), title: "Login ~ Spotifer."});
 });
@@ -46,4 +51,16 @@ router.get('/signup', function(req, res, next){
   res.render('./users/signup', {layout: 'auth', csrfToken: req.csrfToken(), title: "Sign Up ~ Spotifer."});
 });
 
+router.get('/logout', isLoggedIn, function(req, res, next){
+  req.session.destroy();
+  res.redirect('/users/login');
+});
+
 module.exports = router;
+
+function isLoggedIn(req, res, next){
+  if(req.isAuthenticated()){
+    return next();
+  }
+  res.redirect('/users');
+};
