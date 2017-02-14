@@ -8,8 +8,11 @@
       border-right: 2px solid #282a2d;
       z-index: 98;
       width: 230px;
-      background-color: rgba(48, 50, 54, .97);
+      background-color: rgba(48, 50, 54, .96);
       height: 620px;
+      -webkit-box-shadow: 61px 5px 120px -10px rgba(0,0,0,0.12);
+      -moz-box-shadow: 61px 5px 120px -10px rgba(0,0,0,0.12);
+      box-shadow: 61px 5px 120px -10px rgba(0,0,0,0.12);
       .content-left-nav {
         padding: 25px 30px;
         .main {
@@ -63,7 +66,7 @@
         width: 66.3%;
         height: 615px;
         position: fixed;
-          background-color: rgba(51, 53, 58, .97);
+          background-color: rgba(51, 53, 58, .965);
         overflow-y: scroll;
         .ilov {
           height: 650px;
@@ -74,11 +77,14 @@
         right: 0px;
         width: 230px;
         height: 620px;
-        background-color: rgba(48, 50, 54, .97);
+        background-color: rgba(48, 50, 54, .91);
         border-left: 2px solid #282a2d;
         z-index: 98;
+        -webkit-box-shadow: -61px 5px 120px -10px rgba(0,0,0,0.12);
+        -moz-box-shadow: -61px 5px 120px -10px rgba(0,0,0,0.12);
+        box-shadow: -61px 5px 120px -10px rgba(0,0,0,0.12);
         .who-to-follow {
-          padding: 10px;
+          padding: 15px;
           border-bottom: 2px solid #282a2d;
           .who {
             color: #9b9da5;
@@ -91,7 +97,7 @@
             .slider_img {
               text-align: center;
               .item {
-                padding-top: 15px;
+                padding-top: 25px;
                 .fa-close {
                   color: #fff;
                   padding: 3px 5px;
@@ -146,6 +152,58 @@
             }
             .carousel-control.left, .carousel-control.right {
               background-image: none;
+            }
+          }
+        }
+        .notifsd {
+          max-height: 399px;
+          .fly {
+            padding: 15px;
+            padding-top: 19px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #282a2d;
+            p {
+              color: #fff;
+              font-size: 12px;
+              margin-bottom: 5px;
+              font-weight: 600;
+              span {
+                color: #9b9da5;
+                font-weight: 400;
+              }
+            }
+            .ckeck {
+              font-style: italic;
+              font-weight: 400;
+              color: #9b9da5;
+              font-size: 12px;
+              margin-bottom: 10px;
+            }
+            img {
+              width: 50px;
+              float: left;
+              margin-right: 10px;
+              border-bottom: 2px solid #81b304;
+            }
+            .hole {
+              padding-top: 6px;
+              .ooo {
+                font-size: 13px;
+                font-weight: 600;
+                a {
+                  color: #fff;
+                  text-decoration: none;
+                }
+              }
+              p {
+                @extend .ooo;
+                padding-top: 5px;
+                font-size: 12px;
+                a {
+                  color: #9b9da5;
+                  text-decoration: none;
+                }
+              }
             }
           }
         }

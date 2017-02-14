@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.main-isi').niceScroll({
+  $('.main-isi, .notifsd').niceScroll({
     cursorcolor:"#47494e",
     cursorwidth: "8px",
     cursorborder: "none"
