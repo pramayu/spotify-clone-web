@@ -2,6 +2,10 @@
 
 body {
   font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/default/2k.png');
+  width: 100%;
+  background-size: cover;
+  height: 615px;
 }
 
 a {
@@ -16,11 +20,14 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 .custom-nav {
-  background-color: #303236;
+  background-color: rgba(48, 50, 54, 1);
   border-radius: 0px;
   margin-bottom: 0px;
   border: none;
-  border-bottom: 2px solid #282a2d;
+  border-bottom: 2px solid rgba(40, 42, 45, 1);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 }
 
 .custom-nav .fak {

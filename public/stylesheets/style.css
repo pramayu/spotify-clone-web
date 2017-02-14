@@ -1,3 +1,6 @@
+.main-pg {
+  padding-top: 60px; }
+
 .main-pg .nger {
   width: 100%; }
 
@@ -5,8 +8,9 @@
   float: left;
   position: fixed;
   border-right: 2px solid #282a2d;
+  z-index: 98;
   width: 230px;
-  background-color: #303236;
+  background-color: rgba(48, 50, 54, 0.97);
   height: 620px; }
 
 .main-pg .nger .left-nav .content-left-nav {
@@ -17,18 +21,25 @@
   font-weight: 600;
   font-size: 12px; }
 
-.main-pg .nger .left-nav .content-left-nav .njir li {
-  color: #9b9da5;
-  padding-bottom: 15px;
-  font-size: 12px;
-  font-weight: 600; }
+.main-pg .nger .left-nav .content-left-nav .njir {
+  margin-bottom: 30px; }
 
-.main-pg .nger .left-nav .content-left-nav .njir li .fa {
+.main-pg .nger .left-nav .content-left-nav .njir li {
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.main-pg .nger .left-nav .content-left-nav .njir li a {
+  color: #9b9da5;
+  text-decoration: none; }
+
+.main-pg .nger .left-nav .content-left-nav .njir li a .fa {
   margin-right: 5px;
   font-size: 14px !important;
   font-weight: normal; }
 
-.main-pg .nger .left-nav .content-left-nav .njir li.act {
+.main-pg .nger .left-nav .content-left-nav .njir li.act a {
   color: #fff; }
 
 .main-pg .nger .left-nav .content-left-nav .njir li.act:before {
@@ -40,8 +51,109 @@
   height: 35px;
   margin-top: -10px; }
 
+.main-pg .nger .content-nav {
+  background-color: #33353a;
+  padding-left: 230px;
+  width: 100%;
+  height: 100% !important;
+  z-index: 97; }
+
+.main-pg .nger .content-nav .main-isi {
+  float: left;
+  width: 66.3%;
+  height: 615px;
+  position: fixed;
+  background-color: rgba(51, 53, 58, 0.97);
+  overflow-y: scroll; }
+
+.main-pg .nger .content-nav .main-isi .ilov {
+  height: 650px; }
+
+.main-pg .nger .content-nav .right-isi {
+  position: fixed;
+  right: 0px;
+  width: 230px;
+  height: 620px;
+  background-color: rgba(48, 50, 54, 0.97);
+  border-left: 2px solid #282a2d;
+  z-index: 98; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow {
+  padding: 10px;
+  border-bottom: 2px solid #282a2d; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow .who {
+  color: #9b9da5;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  position: absolute; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img {
+  text-align: center; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img .item {
+  padding-top: 15px; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img .item .fa-close {
+  color: #fff;
+  padding: 3px 5px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  background-color: #282a2d;
+  position: absolute;
+  border-radius: 31px;
+  top: 0px;
+  right: 12px;
+  font-weight: lighter;
+  z-index: 101; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img .item img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 auto; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img .item .name {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff;
+  margin-bottom: 3px;
+  font-size: 13px; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img .item .follower {
+  color: #6D7178;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .slider_img .item .btn-fo {
+  background-color: #81b304;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 10px;
+  padding: 6px 35px; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .carousel-control {
+  top: auto;
+  margin-bottom: 33%;
+  z-index: 100; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .carousel-control .fa {
+  color: #fff; }
+
+.main-pg .nger .content-nav .right-isi .who-to-follow #carousel .carousel-control.left, .main-pg .nger .content-nav .right-isi .who-to-follow #carousel .carousel-control.right {
+  background-image: none; }
+
 body {
-  font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/default/2k.png");
+  width: 100%;
+  background-size: cover;
+  height: 615px; }
 
 a {
   color: #00B7FF;
@@ -57,7 +169,10 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   border-radius: 0px;
   margin-bottom: 0px;
   border: none;
-  border-bottom: 2px solid #282a2d; }
+  border-bottom: 2px solid #282a2d;
+  position: fixed;
+  width: 100%;
+  z-index: 99; }
 
 .custom-nav .fak {
   width: 95%; }
